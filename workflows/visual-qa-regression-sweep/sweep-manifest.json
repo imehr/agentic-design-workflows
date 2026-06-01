@@ -1,0 +1,33 @@
+{
+  "viewports": [
+    { "name": "mobile", "width": 390, "height": 900 },
+    { "name": "tablet", "width": 768, "height": 1024 },
+    { "name": "desktop", "width": 1440, "height": 1000 }
+  ],
+  "pages": [
+    {
+      "id": "dashboard",
+      "route": "/dashboard",
+      "intent": "Dense triage view; queue must stay above summaries on mobile.",
+      "states": ["default", "empty", "error"]
+    },
+    {
+      "id": "billing",
+      "route": "/settings/billing",
+      "intent": "Plan comparison and invoice history; pricing figures must stay aligned.",
+      "states": ["default", "past-due"]
+    },
+    {
+      "id": "reports",
+      "route": "/reports",
+      "intent": "Chart-heavy page; legends and axis labels must remain readable at 390px.",
+      "states": ["default", "loading"]
+    },
+    {
+      "id": "settings-profile",
+      "route": "/settings/profile",
+      "intent": "Form page; save action must remain visible without scrolling at 390px.",
+      "states": ["default", "validation-error"]
+    }
+  ]
+}

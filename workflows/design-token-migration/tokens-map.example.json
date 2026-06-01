@@ -1,0 +1,26 @@
+{
+  "#1A73E8": {
+    "to": "color.action.primary",
+    "note": "Buttons and links. If used as a chart series color, use color.dataviz.1 instead."
+  },
+  "#5F6368": {
+    "to": "ask",
+    "note": "Used for both secondary text and borders. Map text usages to color.text.secondary, borders to color.border.default."
+  },
+  "gray-500": { "to": "color.text.secondary" },
+  "brand-blue-600": { "to": "color.action.primary" },
+  "rgba(0,0,0,0.12)": { "to": "color.border.subtle" },
+  "px-[18px]": {
+    "to": "px-4",
+    "note": "Off-scale spacing. 18px maps down to space.4 (16px) per the migration decision log."
+  },
+  "shadow-card-legacy": { "to": "shadow.raised" },
+  "fontSize: 13": {
+    "to": "text.body.sm",
+    "note": "13px collapses into the 14px small body step."
+  },
+  "#FFFFFF": {
+    "to": "ask",
+    "note": "Backgrounds map to color.surface.default; text on dark surfaces maps to color.text.inverse."
+  }
+}

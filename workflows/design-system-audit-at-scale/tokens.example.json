@@ -1,0 +1,41 @@
+{
+  "color": {
+    "action": {
+      "primary": { "value": "#2456C4" },
+      "primary-hover": { "value": "#1C449C" }
+    },
+    "text": {
+      "primary": { "value": "#1A1D21" },
+      "secondary": { "value": "#5A6068" },
+      "disabled": { "value": "#9AA1A9" }
+    },
+    "border": {
+      "default": { "value": "#D5D9DE" },
+      "subtle": { "value": "#E8EBEE" }
+    },
+    "status": {
+      "success": { "value": "#1E7B45" },
+      "warning": { "value": "#9A6700" },
+      "error": { "value": "#B3261E" }
+    }
+  },
+  "space": {
+    "1": { "value": "4px" },
+    "2": { "value": "8px" },
+    "3": { "value": "12px" },
+    "4": { "value": "16px" },
+    "6": { "value": "24px" },
+    "8": { "value": "32px" }
+  },
+  "radius": {
+    "sm": { "value": "6px" },
+    "md": { "value": "10px" },
+    "lg": { "value": "16px" }
+  },
+  "font": {
+    "body": { "value": "16px" },
+    "body-sm": { "value": "14px" },
+    "heading-1": { "value": "32px" },
+    "heading-2": { "value": "24px" }
+  }
+}
