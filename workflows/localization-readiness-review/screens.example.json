@@ -1,0 +1,12 @@
+{
+  "comment": "Copy to l10n/screens.json. The expansion agent renders each screen at 1440 and 390 px under the en-XA pseudo-locale.",
+  "baseUrl": "http://localhost:3000",
+  "screens": [
+    { "name": "checkout-cart", "route": "/checkout", "state": "cart with 3 items including one long product name" },
+    { "name": "checkout-payment", "route": "/checkout/payment", "state": "validation errors visible on card fields" },
+    { "name": "checkout-confirmation", "route": "/checkout/review", "state": "order summary with discount and tax lines" },
+    { "name": "account-settings", "route": "/account/settings", "state": "default" },
+    { "name": "onboarding-plan-picker", "route": "/onboarding/plans", "state": "all three plan cards visible" },
+    { "name": "onboarding-invite", "route": "/onboarding/invite", "state": "empty state, no teammates invited" }
+  ]
+}

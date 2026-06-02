@@ -21,6 +21,8 @@ Every workflow in the library has a folder here with runnable sample code: Claud
 | Component documentation generation | [`workflows/component-documentation-generation`](workflows/component-documentation-generation) |
 | Design system contribution intake | [`workflows/design-system-contribution-intake`](workflows/design-system-contribution-intake) |
 | Interactive prototype sprint | [`workflows/interactive-prototype-sprint`](workflows/interactive-prototype-sprint) |
+| Design ops reporting | [`workflows/design-ops-reporting`](workflows/design-ops-reporting) |
+| Localization readiness review | [`workflows/localization-readiness-review`](workflows/localization-readiness-review) |
 
 ### UX
 
@@ -32,6 +34,7 @@ Every workflow in the library has a folder here with runnable sample code: Claud
 | Service blueprint from research data | [`workflows/service-blueprint-from-research-data`](workflows/service-blueprint-from-research-data) |
 | IA audit and card sort analysis | [`workflows/ia-audit-and-card-sort-analysis`](workflows/ia-audit-and-card-sort-analysis) |
 | Cognitive walkthrough at scale | [`workflows/cognitive-walkthrough-at-scale`](workflows/cognitive-walkthrough-at-scale) |
+| Stakeholder workshop prep | [`workflows/stakeholder-workshop-prep`](workflows/stakeholder-workshop-prep) |
 
 ### Research
 
@@ -52,6 +55,8 @@ Every workflow in the library has a folder here with runnable sample code: Claud
 | Brand campaign concept sprint | [`workflows/brand-campaign-concept-sprint`](workflows/brand-campaign-concept-sprint) |
 | Multi-channel asset production | [`workflows/multi-channel-asset-production`](workflows/multi-channel-asset-production) |
 | Landing page and CRO audit | [`workflows/landing-page-cro-audit`](workflows/landing-page-cro-audit) |
+| Brand identity system build | [`workflows/brand-identity-system-build`](workflows/brand-identity-system-build) |
+| SEO content brief research | [`workflows/seo-content-brief-research`](workflows/seo-content-brief-research) |
 
 ## How the samples are organised
 

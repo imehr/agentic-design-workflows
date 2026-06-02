@@ -1,0 +1,56 @@
+{
+  "$description": "Example brand token file produced by the brand-token-translator agent. Pairings carry computed WCAG 2.2 contrast ratios; FAIL entries are flagged for the creative director, not silently fixed.",
+  "color": {
+    "brand": {
+      "primary": { "$value": "#1B3A6B", "$type": "color" },
+      "accent": { "$value": "#FF6A3D", "$type": "color" },
+      "accent-deep": {
+        "$value": "#C2421A",
+        "$type": "color",
+        "$description": "Proposed companion to accent for dark surfaces; accent fails 4.5:1 on surface.dark"
+      }
+    },
+    "surface": {
+      "light": { "$value": "#FAF8F4", "$type": "color" },
+      "dark": { "$value": "#14181F", "$type": "color" }
+    },
+    "text": {
+      "on-light": { "$value": "#1A1D23", "$type": "color" },
+      "on-dark": { "$value": "#F2F0EB", "$type": "color" }
+    },
+    "pairings": [
+      { "fg": "color.text.on-light", "bg": "color.surface.light", "contrast": 14.2, "passes": "AAA" },
+      { "fg": "color.text.on-dark", "bg": "color.surface.dark", "contrast": 13.1, "passes": "AAA" },
+      { "fg": "color.brand.primary", "bg": "color.surface.light", "contrast": 9.8, "passes": "AA" },
+      { "fg": "color.brand.accent", "bg": "color.surface.light", "contrast": 4.6, "passes": "AA" },
+      { "fg": "color.brand.accent", "bg": "color.surface.dark", "contrast": 3.1, "passes": "FAIL" },
+      { "fg": "color.brand.accent-deep", "bg": "color.surface.dark", "contrast": 5.6, "passes": "AA" }
+    ]
+  },
+  "type": {
+    "family": {
+      "display": { "$value": "Saans, sans-serif", "$type": "fontFamily" },
+      "body": { "$value": "Inter, sans-serif", "$type": "fontFamily" }
+    },
+    "scale": {
+      "display": { "size": "clamp(2.5rem, 6vw, 4.5rem)", "lineHeight": 1.05 },
+      "h1": { "size": "2.25rem", "lineHeight": 1.15 },
+      "h2": { "size": "1.5rem", "lineHeight": 1.25 },
+      "body": { "size": "1rem", "lineHeight": 1.6 },
+      "caption": { "size": "0.875rem", "lineHeight": 1.5 }
+    }
+  },
+  "space": {
+    "unit": "4px",
+    "steps": [4, 8, 12, 16, 24, 32, 48, 64]
+  },
+  "radius": {
+    "control": { "$value": "6px" },
+    "card": { "$value": "12px" },
+    "pill": { "$value": "999px" }
+  },
+  "motion": {
+    "duration": { "fast": "120ms", "base": "200ms", "slow": "320ms" },
+    "easing": { "standard": "cubic-bezier(0.2, 0, 0, 1)" }
+  }
+}
