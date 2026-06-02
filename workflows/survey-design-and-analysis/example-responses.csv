@@ -1,0 +1,13 @@
+response_id,submitted_at,plan_tier,role,q1_price_acceptance,q2_satisfaction,q4_priority,q9_text
+R001,2026-05-12,pro,designer,Acceptable,Satisfied,Audit logs and permissions,"Fine if the annual discount stays, otherwise we will look around."
+R002,2026-05-12,free,founder,Too expensive,Neutral,Integrations marketplace,"We only use the free tier, so pricing changes do not really affect us yet."
+R003,2026-05-12,enterprise,admin,Acceptable,Satisfied,Audit logs and permissions,"Acceptable assuming existing contracts are grandfathered for the current term."
+R004,2026-05-13,pro,pm,Good value,Very satisfied,Reporting improvements,"Happy to pay more once the reporting beta actually ships."
+R005,2026-05-13,free,engineer,Too expensive,Dissatisfied,Integrations marketplace,"Would not pay at all until there is a proper API."
+R006,2026-05-13,enterprise,admin,Acceptable,Satisfied,Audit logs and permissions,"Need SSO and audit exports before any price increase is justifiable."
+R007,2026-05-14,pro,designer,Acceptable,Neutral,Reporting improvements,"OK with it if billing surprises stop — last quarter we were charged for seats we removed."
+R008,2026-05-14,free,student,Too expensive,Satisfied,Integrations marketplace,"I am a student, any price is too much, the free tier is great though."
+R009,2026-05-14,enterprise,it_lead,Good value,Satisfied,Audit logs and permissions,"Value is fine; procurement just needs 12 months notice on changes."
+R010,2026-05-15,pro,pm,Acceptable,Satisfied,Audit logs and permissions,"Acceptable if existing customers keep current pricing for a year."
+R011,2026-05-15,free,founder,Acceptable,Neutral,Integrations marketplace,"Will decide when we actually need to upgrade."
+R012,2026-05-15,pro,designer,Too expensive,Dissatisfied,Reporting improvements,"The price would be fine if the dashboard were faster on large projects."

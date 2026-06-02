@@ -1,0 +1,48 @@
+# Service blueprint template
+# Rename phases for your service (5-8 phases is usually right) before running the workflow.
+# Lane agents fill the lanes; do not pre-fill steps.
+
+service: "[Service name, start to end point]"
+
+phases:
+  - id: aware
+    label: "Become aware / triggering event"
+  - id: start
+    label: "Start the journey"
+  - id: progress
+    label: "In progress"
+  - id: resolve
+    label: "Resolution"
+  - id: follow_up
+    label: "Follow-up"
+
+lanes:
+  customer_actions: []
+  # - phase: start
+  #   step: "What the customer does"
+  #   sources: [file-name.md]
+  #   confidence: multi-source | single-source
+
+  frontstage: []
+  # Visible staff actions and customer-facing system behavior.
+
+  backstage: []
+  # - phase: progress
+  #   step: "Internal step"
+  #   supports_frontstage: "Which visible moment this enables"
+  #   handoff_to: "team or system"
+  #   sources: [runbook.md]
+  #   confidence: single-source
+
+  support_processes: []
+  # Systems, batch jobs, third parties, policies.
+
+  evidence: []
+  # Physical and digital evidence the customer sees: emails, letters, portals, receipts.
+
+gaps: []
+# Written by the gap agent:
+# - lane: backstage
+#   phase: progress
+#   note: "What is thin, missing, or contradictory; which sources disagree"
+#   workshop_priority: high | medium | low
