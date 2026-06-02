@@ -1,0 +1,34 @@
+{
+  "journey": "Self-serve signup to activation (first successful report shared)",
+  "period": "2026-01-01 to 2026-04-30",
+  "sources": [
+    {
+      "id": "amp",
+      "file": "data/amplitude-funnel-export.csv",
+      "type": "analytics",
+      "notes": "Signup -> verify -> create workspace -> connect data -> first report -> share. Mobile web not instrumented."
+    },
+    {
+      "id": "zd",
+      "file": "data/zendesk-onboarding-tickets.csv",
+      "type": "tickets",
+      "notes": "2,340 tickets tagged onboarding or getting-started, anonymized."
+    },
+    {
+      "id": "sess",
+      "file": "data/session-notes/",
+      "type": "session-notes",
+      "notes": "Notes from 38 recorded onboarding sessions, written by two researchers."
+    },
+    {
+      "id": "int",
+      "file": "data/interview-themes.md",
+      "type": "interviews",
+      "notes": "Themes from 12 activation interviews, Q1 research round."
+    }
+  ],
+  "known_gaps": [
+    "No data on users who bounced before creating an account",
+    "Mobile web behavior not instrumented"
+  ]
+}

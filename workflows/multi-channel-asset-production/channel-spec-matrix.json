@@ -1,0 +1,77 @@
+{
+  "campaign": "spring-launch",
+  "masterConcept": "concept/master-concept.md",
+  "brandGuidelines": "brand/brand-guidelines.md",
+  "assets": [
+    {
+      "id": "web-hero",
+      "channel": "web",
+      "format": "homepage hero",
+      "output": "html",
+      "breakpoints": [390, 768, 1440],
+      "copy": { "headlineMax": 60, "subheadMax": 140, "cta": "required" },
+      "mandatories": ["product lockup", "legal-line-A"],
+      "notes": "Uses existing hero component and design tokens; no new type sizes."
+    },
+    {
+      "id": "email-module",
+      "channel": "email",
+      "format": "promo module",
+      "output": "html-email",
+      "width": 600,
+      "copy": { "headlineMax": 45, "bodyMax": 220, "cta": "required" },
+      "mandatories": ["legal-line-A", "unsubscribe block untouched"],
+      "notes": "Dark-mode safe; system font stack fallback."
+    },
+    {
+      "id": "paid-social-1080x1080",
+      "channel": "paid-social",
+      "format": "feed square",
+      "output": "copy-and-spec",
+      "dimensions": "1080x1080",
+      "copy": { "onImageMax": 30, "primaryTextMax": 125, "headlineMax": 40 },
+      "mandatories": ["product lockup"],
+      "notes": "Three copy variants for testing; no claims beyond approved list."
+    },
+    {
+      "id": "paid-social-1080x1920",
+      "channel": "paid-social",
+      "format": "story / vertical",
+      "output": "copy-and-spec",
+      "dimensions": "1080x1920",
+      "copy": { "onImageMax": 24, "headlineMax": 40 },
+      "mandatories": ["product lockup"],
+      "notes": "Keep top and bottom 250px clear of essential content (platform UI)."
+    },
+    {
+      "id": "display-300x250",
+      "channel": "display",
+      "format": "MPU",
+      "output": "html5",
+      "dimensions": "300x250",
+      "copy": { "headlineMax": 25, "cta": "required" },
+      "mandatories": ["legal-line-B"],
+      "notes": "Max 150KB initial load per ad-server policy."
+    },
+    {
+      "id": "display-728x90",
+      "channel": "display",
+      "format": "leaderboard",
+      "output": "html5",
+      "dimensions": "728x90",
+      "copy": { "headlineMax": 30, "cta": "required" },
+      "mandatories": ["legal-line-B"],
+      "notes": "Max 150KB initial load per ad-server policy."
+    },
+    {
+      "id": "in-app-banner",
+      "channel": "in-app",
+      "format": "top banner",
+      "output": "html",
+      "dimensions": "100% x 96",
+      "copy": { "headlineMax": 50, "cta": "required" },
+      "mandatories": ["dismiss control"],
+      "notes": "Must respect app safe areas and the existing banner component."
+    }
+  ]
+}

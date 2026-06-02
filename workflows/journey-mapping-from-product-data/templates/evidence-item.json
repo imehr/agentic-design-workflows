@@ -1,0 +1,21 @@
+{
+  "$comment": "Schema for one evidence item. Extractor agents emit arrays of these; the merge step assigns stable ids.",
+  "example": {
+    "id": "zd-0142",
+    "source": "zd",
+    "stage_guess": "connect-data",
+    "observation": "User could not find where their API key lived and abandoned setup: 'I gave up looking for the key and asked our admin.'",
+    "signal_type": "pain",
+    "strength": "explicit",
+    "citation": "data/zendesk-onboarding-tickets.csv#row=1873"
+  },
+  "fields": {
+    "id": "Stable ID assigned at merge time, prefixed with the source id from the manifest.",
+    "source": "Source id from the manifest (amp, zd, sess, int, ...).",
+    "stage_guess": "The extractor's guess at the journey stage; the synthesizer assigns the final stage.",
+    "observation": "What happened or what was said, verbatim where language matters.",
+    "signal_type": "behavior | pain | emotion | workaround | expectation",
+    "strength": "explicit (stated or measured directly) | inferred (reasonable reading of the source)",
+    "citation": "File plus row, ticket ID, or note ID that lets a human find the original."
+  }
+}

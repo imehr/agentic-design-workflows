@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "route": "/checkout/payment",
+      "components": ["src/components/checkout/PaymentForm.tsx", "src/components/ui/Button.tsx"],
+      "states": ["default", "card-error", "loading"]
+    },
+    {
+      "route": "/settings/billing",
+      "components": ["src/components/settings/BillingPanel.tsx", "src/components/ui/Badge.tsx"],
+      "states": ["default", "empty", "past-due"]
+    },
+    {
+      "route": "/dashboard",
+      "components": ["src/components/dashboard/KpiCards.tsx", "src/components/dashboard/FilterRail.tsx"],
+      "states": ["default", "empty", "loading"]
+    }
+  ],
+  "widths": [390, 768, 1440]
+}
